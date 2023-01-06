@@ -20,7 +20,15 @@ body {
 }
 
 .stats-container {
+    /* add the flexbox properties here */
     display: flex;
+
+
+}
+
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -32,6 +40,8 @@ body {
     text-align: center;
 }
 
+
+
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
 }
@@ -42,7 +52,7 @@ body {
     justify-content: space-around;
 }
 
-.game-img {
+.game-img{
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
@@ -56,6 +66,7 @@ body {
     text-align: center;
     border-radius: 7px;
 }
+
 
 .game-card:hover {
     cursor: pointer;
@@ -73,3 +84,4 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
