@@ -6,7 +6,6 @@
 
 // import the JSON data about the crowd funded games from the games.js file
 
-import games from './games.js';
 import GAMES_DATA from './games.js';
 
 // create a list of objects to store the data about the games using JSON.parse
