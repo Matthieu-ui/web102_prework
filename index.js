@@ -28,7 +28,7 @@ let gamesContainer = document.getElementById("games-container");
 
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
-    games = GAMES_JSON;
+
 
     // loop over each item in the data
 
@@ -68,7 +68,7 @@ function addGamesToPage(games) {
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
 
-addGamesToPage(gamesContainer);
+addGamesToPage(GAMES_JSON);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
@@ -128,11 +128,10 @@ function filterUnfundedOnly() {
 
     const unfundedGames = GAMES_JSON.filter(game => game.pledged < game.goal)
 
-
     // use the function we previously created to add the unfunded games to the DOM
 
     addGamesToPage(unfundedGames);
-    console.log(unfundedGames);
+    // console.log(unfundedGames);
 
 }
 
@@ -140,7 +139,6 @@ function filterUnfundedOnly() {
 function filterFundedOnly() {
     deleteChildElements(gamesContainer);
     
-
     // use filter() to get a list of games that have met or exceeded their goal
 
     const fundedGames = GAMES_JSON.filter(game => game.pledged >= game.goal)
@@ -149,7 +147,7 @@ function filterFundedOnly() {
     // use the function we previously created to add unfunded games to the DOM
 
     addGamesToPage(fundedGames);
-    console.log(fundedGames);
+    // console.log(fundedGames);
     
 }
 
@@ -162,7 +160,7 @@ function showAllGames() {
     // use the function we previously created to add all games to the DOM
 
     addGamesToPage(allGames);
-    console.log(allGames);
+    // console.log(allGames);
 }
 
 
