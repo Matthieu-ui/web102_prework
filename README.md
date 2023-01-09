@@ -23,7 +23,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://photos.google.com/photo/AF1QipP3XdfUkbb2SdrjVWf-I-ffkKcxsul_0441UIfR' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/gif/readMe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Nvidia GeForce Experience 
